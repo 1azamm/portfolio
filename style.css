@@ -707,8 +707,8 @@
         row-gap: 80px;
     }
 } */
-
-@media only screen and (max-width: 400px) {
+/* this is the responsive of 400 px */
+@media only screen and (max-width: 450px) {
 
     .header_container {
         display: none;
@@ -725,6 +725,11 @@
     .name_wrap h1 {
         font-size: 30px;
         margin-bottom: 30px;
+    }
+
+    .name_wrap {
+        flex-direction: column;
+        align-items: inherit;
     }
 
     .p_wrapper p {
