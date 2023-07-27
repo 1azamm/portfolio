@@ -619,7 +619,7 @@
 
 
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .lang {
         display: none;
     }
@@ -637,7 +637,7 @@
 
 
 
-}
+} */
 
 /* @media only screen and (max-width: 350px) {
     .header_container {
@@ -708,7 +708,7 @@
     }
 } */
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
 
     .header_container {
         display: none;
