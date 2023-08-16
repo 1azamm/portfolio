@@ -1,3 +1,4 @@
 {
-    "workbench.colorTheme": "Houston"
+  "workbench.colorTheme": "Houston",
+  "liveServer.settings.port": 5501
 }
