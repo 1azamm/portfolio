@@ -14,6 +14,7 @@ ul{
     --infocolor: rgb(241, 240, 240);   
     --dark-icon-color: #fff; 
     --light-icon-color: #FFDE59;
+    --menu-color:rgb(255, 255, 255);
 }
 
 
@@ -22,6 +23,17 @@ ul{
     --iconbg:rgb(255,255,255);
     --textcolor:rgb(255,255,255);
     --infocolor: rgb(37, 37, 37);
+    --menu-color:rgb(255, 255, 255);
+
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid var(--menu-color);
+}
+.navbar-toggler{
+    border: none;
 }
 .navbar-brand{
     color: var(--textcolor) !important;
@@ -34,9 +46,14 @@ ul{
     }
 
 }
+span{
+    background-color: var(--dark-icon-color);
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    /* border: 1px solid rgb(0, 30, 255); */
+}
 
-
-  
 body{
     background: var(--bg-color2);
 }
@@ -229,7 +246,7 @@ body{
 
 .portfolio ul {
     list-style: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--textcolor);
     margin: 60px 0 100px 0;
     
 
@@ -684,8 +701,14 @@ background-color: var(--iconbg);
 
 
 @media only screen and (max-width: 450px) {
+    span {
+        background-color: var(--menu-color);
+        padding: 15px;
+        border-radius: 5px;
+        outline: none;
+    }
 .btn{
-    /* display: flex !important; */
+    display: flex !important;
 }
     .header_container {
         display: none;
