@@ -18,6 +18,7 @@ ul {
 }
 
 .dark-mode {
+  /* transition: 0.5s; */
   --bg-color2: rgb(0, 0, 0);
   --iconbg: rgb(255, 255, 255);
   --textcolor: rgb(255, 255, 255);
@@ -51,6 +52,7 @@ span {
 }
 
 body {
+  transition: 0.5s;
   background: var(--bg-color2);
 }
 
